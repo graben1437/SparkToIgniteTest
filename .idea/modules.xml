@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkIgniteGist.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkIgniteGist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ignitesqlgist.iml" filepath="$PROJECT_DIR$/.idea/modules/ignitesqlgist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ignitesqlgist-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ignitesqlgist-build.iml" />
     </modules>
   </component>

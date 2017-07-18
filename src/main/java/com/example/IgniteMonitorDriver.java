@@ -18,7 +18,6 @@ import java.util.List;
  * Generates some statistics on the Ignite cluster for all caches
  * and a hard coded table
  *
- * Created by david.robinson on 7/13/17.
  */
 public class IgniteMonitorDriver {
 

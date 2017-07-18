@@ -38,18 +38,27 @@ object TestCacheWrite2 {
 
     try {
       Class.forName("org.apache.ignite.IgniteJdbcDriver")
-      val igniteUrl =  "jdbc:ignite://10.100.80.109:11211/TESTCACHE"
+      // val igniteUrl = "jdbc:ignite://10.100.80.109:11211/TESTCACHE"
+      // val igniteUrl = "jdbc:ignite:cfg://[<params>@]<config_url>"
+      // val igniteUrl = "jdbc:ignite:cfg://cache=TESTCACHE:streaming=true@file:///etc/config/ignite-jdbc.xml"
+      val igniteUrl = "jdbc:ignite:cfg://cache=TESTCACHE@file:///etc/config/ignite-jdbc.xml"
       val igniteTable = "SAMPLETABLE"
       // Saving data to a JDBC source
       // many of these options were added in "after the fact" to try to get this to work
       // but still doesn't work.
-      df1.write
+      /* df1.write
         .format("jdbc")
         .option("url", igniteUrl)
         .option("dbName", "TESTCACHE")
         .option("dbtable", "SAMPLETABLE")
         .option("hostname", "10.100.80.109")
         .option("port", 11211)
+        .mode(SaveMode.Overwrite)
+        .save() */
+      df1.write
+        .format("jdbc")
+        .option("url", igniteUrl)
+        .option("dbtable", igniteTable)
         .mode(SaveMode.Overwrite)
         .save()
     }

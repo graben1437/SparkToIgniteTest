@@ -6009,7 +6009,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1223ms :: artifacts dl 48ms
+[debug] :: resolution report :: resolve 1678ms :: artifacts dl 36ms
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT compile produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-compile.xml
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT runtime produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-runtime.xml
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT test produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-test.xml
@@ -6023,5 +6023,5 @@
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT docs produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-docs.xml
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT pom produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-pom.xml
 [debug] 	report for default#ignitesqlgist-build;0.1-SNAPSHOT scala-tool produced in /Users/david.robinson/IdeaProjects/IgniteSqlGist/project/target/resolution-cache/reports/default-ignitesqlgist-build-scala-tool.xml
-[debug] 	resolve done (1223ms resolve - 48ms download)
+[debug] 	resolve done (1678ms resolve - 36ms download)
 [info] Done updating.
