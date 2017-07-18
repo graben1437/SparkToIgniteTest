@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SparkToIgniteTest">
+    <output-path>$PROJECT_DIR$/jarfiles</output-path>
+    <root id="archive" name="SparkToIgniteTest.jar">
+      <element id="module-output" name="SparkIgniteGist" />
+    </root>
+  </artifact>
+</component>
